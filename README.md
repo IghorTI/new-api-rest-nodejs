@@ -9,7 +9,7 @@
 -- Typescript com a integração com o NodeJS
 npm i typescript @types/node -D
 
--- 
+-- pino-pretty
 npm i pino-pretty
 
 Reference: https://fastify.dev/docs/v5.3.x/Reference/Logging/
@@ -20,6 +20,20 @@ Reference: https://fastify.dev/docs/v5.3.x/Reference/Logging/
         translateTime: 'HH:MM:ss Z',
         ignore: 'pid,hostname',
       },
+
+-- Drizzle 
+
+npm i drizzle-kit -D
+npm i drizzle-orm pg
+
+-- Zod
+
+npm i zod fastify-type-provider-zod
+
+-- Swagger
+
+npm i @fastify/swagger
+npm i @fastify/swagger-ui
 
 
 # Commands 
@@ -51,3 +65,8 @@ Copy the configurations
     "moduleResolution": "node16"
   }
 }
+
+# Drizzle 
+> npx drizzle-kit generate
+> npx drizzle-kit migrate
+> npx drizzle-kit studio
