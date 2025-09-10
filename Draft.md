@@ -35,6 +35,11 @@ npm i zod fastify-type-provider-zod
 npm i @fastify/swagger
 npm i @fastify/swagger-ui
 
+-- Scalar 
+
+npm i @scalar/fastify-api-reference
+Reference: https://www.npmjs.com/package/@scalar/fastify-api-reference
+
 
 # Commands 
 After install Typescript run the command : 

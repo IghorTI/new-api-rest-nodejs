@@ -15,6 +15,20 @@
       "when": 1755195906365,
       "tag": "0001_plain_squirrel_girl",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1757458634595,
+      "tag": "0002_omniscient_magus",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1757458762658,
+      "tag": "0003_broken_madelyne_pryor",
+      "breakpoints": true
     }
   ]
 }
